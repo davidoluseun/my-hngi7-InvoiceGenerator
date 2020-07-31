@@ -1,0 +1,49 @@
+/* Bootstrap Overrides
+------------------------------*/
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+    color: #152724;
+    background: #07EDD6;
+    margin-right: 20px;
+    border-color: #07EDD6;
+    border: 2px solid #07EDD6;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 19px;
+}
+
+/* Success Section
+------------------------------*/
+
+.success-wrap {
+    padding: 40px;
+    max-width: 562px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(21, 39, 36, 0.1);
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+}
+
+.success-icon {
+    font-size: 32px;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    background: #07EDD6;
+}
+
+@media (min-width: 503px) {
+    .btn-primary:first-of-type {
+        margin-bottom: 0 !important;
+    }
+}
